@@ -1,0 +1,6 @@
+framework module WTestToolKit {
+  umbrella header "WTestToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

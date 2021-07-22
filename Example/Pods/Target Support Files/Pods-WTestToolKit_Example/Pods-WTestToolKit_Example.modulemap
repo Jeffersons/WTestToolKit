@@ -1,0 +1,6 @@
+framework module Pods_WTestToolKit_Example {
+  umbrella header "Pods-WTestToolKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */; };
+		26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707926A89CF7004647C1 /* RootBuild.swift */; };
+		26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707B26A89DBC004647C1 /* RootViewController.swift */; };
+		26DD707F26A89E4F004647C1 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707E26A89E4F004647C1 /* RootInteractor.swift */; };
+		26DD708126A89E8F004647C1 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708026A89E8F004647C1 /* RootPresenter.swift */; };
+		26DD708526A89F2A004647C1 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708426A89F2A004647C1 /* RootViewModel.swift */; };
+		26DD708726A8A0B3004647C1 /* RootWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708626A8A0B3004647C1 /* RootWorker.swift */; };
+		26DD708A26A8A19B004647C1 /* RootListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708926A8A19B004647C1 /* RootListView.swift */; };
+		26DD708C26A8A2CF004647C1 /* RootListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708B26A8A2CF004647C1 /* RootListCell.swift */; };
+		26DD708F26A9EF8D004647C1 /* AtomicDetailBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD708E26A9EF8D004647C1 /* AtomicDetailBuild.swift */; };
+		26DD709126A9F001004647C1 /* AtomicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709026A9F001004647C1 /* AtomicDetailViewController.swift */; };
+		26DD709326A9F0AF004647C1 /* AtomicDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709226A9F0AF004647C1 /* AtomicDetailInteractor.swift */; };
+		26DD709526A9F0F2004647C1 /* AtomicDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709426A9F0F2004647C1 /* AtomicDetailPresenter.swift */; };
+		26DD709826A9F125004647C1 /* AtomicDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709726A9F125004647C1 /* AtomicDetailWorker.swift */; };
+		26DD709B26A9F173004647C1 /* AtomicDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709A26A9F173004647C1 /* AtomicDetailViewModel.swift */; };
+		26DD709E26A9F1E6004647C1 /* AtomicDetailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709D26A9F1E6004647C1 /* AtomicDetailListView.swift */; };
+		26DD70A026A9F210004647C1 /* AtomicDetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD709F26A9F210004647C1 /* AtomicDetailListCell.swift */; };
+		26DD70A226A9F34F004647C1 /* AtomicDetailSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD70A126A9F34F004647C1 /* AtomicDetailSectionController.swift */; };
+		26DD70A526A9F514004647C1 /* AtomsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD70A426A9F514004647C1 /* AtomsGroup.swift */; };
+		26DD70A826A9F5F0004647C1 /* MoleculesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD70A726A9F5F0004647C1 /* MoleculesGroup.swift */; };
+		26DD70AA26A9F66F004647C1 /* OrganismsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD70A926A9F66F004647C1 /* OrganismsGroup.swift */; };
+		26DD70AC26A9F6BD004647C1 /* TemplatesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD70AB26A9F6BD004647C1 /* TemplatesGroup.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -30,7 +52,29 @@
 		008B24F2012BEBE22967D174 /* Pods_WTestToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTestToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		093891F9019DA183F5990C84 /* Pods-WTestToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Example/Pods-WTestToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B5ECA3B41C736ACEE353EB8 /* Pods-WTestToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Tests/Pods-WTestToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3663B61D6E571792666B1D65 /* WTestToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WTestToolKit.podspec; path = ../WTestToolKit.podspec; sourceTree = "<group>"; };
+		26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWTestToolKit.swift; sourceTree = "<group>"; };
+		26DD707926A89CF7004647C1 /* RootBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuild.swift; sourceTree = "<group>"; };
+		26DD707B26A89DBC004647C1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		26DD707E26A89E4F004647C1 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		26DD708026A89E8F004647C1 /* RootPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		26DD708426A89F2A004647C1 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		26DD708626A8A0B3004647C1 /* RootWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWorker.swift; sourceTree = "<group>"; };
+		26DD708926A8A19B004647C1 /* RootListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListView.swift; sourceTree = "<group>"; };
+		26DD708B26A8A2CF004647C1 /* RootListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListCell.swift; sourceTree = "<group>"; };
+		26DD708E26A9EF8D004647C1 /* AtomicDetailBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailBuild.swift; sourceTree = "<group>"; };
+		26DD709026A9F001004647C1 /* AtomicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailViewController.swift; sourceTree = "<group>"; };
+		26DD709226A9F0AF004647C1 /* AtomicDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailInteractor.swift; sourceTree = "<group>"; };
+		26DD709426A9F0F2004647C1 /* AtomicDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailPresenter.swift; sourceTree = "<group>"; };
+		26DD709726A9F125004647C1 /* AtomicDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailWorker.swift; sourceTree = "<group>"; };
+		26DD709A26A9F173004647C1 /* AtomicDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailViewModel.swift; sourceTree = "<group>"; };
+		26DD709D26A9F1E6004647C1 /* AtomicDetailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailListView.swift; sourceTree = "<group>"; };
+		26DD709F26A9F210004647C1 /* AtomicDetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailListCell.swift; sourceTree = "<group>"; };
+		26DD70A126A9F34F004647C1 /* AtomicDetailSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicDetailSectionController.swift; sourceTree = "<group>"; };
+		26DD70A426A9F514004647C1 /* AtomsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomsGroup.swift; sourceTree = "<group>"; };
+		26DD70A726A9F5F0004647C1 /* MoleculesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleculesGroup.swift; sourceTree = "<group>"; };
+		26DD70A926A9F66F004647C1 /* OrganismsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismsGroup.swift; sourceTree = "<group>"; };
+		26DD70AB26A9F6BD004647C1 /* TemplatesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesGroup.swift; sourceTree = "<group>"; };
+		3663B61D6E571792666B1D65 /* WTestToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTestToolKit.podspec; path = ../WTestToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		48008626E3B841BE82103E38 /* Pods-WTestToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Tests/Pods-WTestToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WTestToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTestToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +87,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75215D6142A555D490947813 /* Pods_WTestToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTestToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		898CAB7A5AFB2D0EA524C466 /* Pods-WTestToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Example/Pods-WTestToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		905B14C62FF05C713F38BF26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CA37CA976FEC6092E71CA9F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		905B14C62FF05C713F38BF26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA37CA976FEC6092E71CA9F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +111,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26DD707D26A89DD4004647C1 /* RootGroup */ = {
+			isa = PBXGroup;
+			children = (
+				26DD708826A8A172004647C1 /* View */,
+				26DD708326A89F0F004647C1 /* ViewModel */,
+				26DD707926A89CF7004647C1 /* RootBuild.swift */,
+				26DD707B26A89DBC004647C1 /* RootViewController.swift */,
+				26DD708026A89E8F004647C1 /* RootPresenter.swift */,
+				26DD707E26A89E4F004647C1 /* RootInteractor.swift */,
+				26DD708626A8A0B3004647C1 /* RootWorker.swift */,
+			);
+			path = RootGroup;
+			sourceTree = "<group>";
+		};
+		26DD708326A89F0F004647C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				26DD708426A89F2A004647C1 /* RootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		26DD708826A8A172004647C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26DD708926A8A19B004647C1 /* RootListView.swift */,
+				26DD708B26A8A2CF004647C1 /* RootListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26DD708D26A9EF70004647C1 /* AtomicDetailGroup */ = {
+			isa = PBXGroup;
+			children = (
+				26DD709C26A9F1D9004647C1 /* View */,
+				26DD709926A9F152004647C1 /* ViewModel */,
+				26DD708E26A9EF8D004647C1 /* AtomicDetailBuild.swift */,
+				26DD709026A9F001004647C1 /* AtomicDetailViewController.swift */,
+				26DD709226A9F0AF004647C1 /* AtomicDetailInteractor.swift */,
+				26DD709426A9F0F2004647C1 /* AtomicDetailPresenter.swift */,
+				26DD709726A9F125004647C1 /* AtomicDetailWorker.swift */,
+				26DD70A126A9F34F004647C1 /* AtomicDetailSectionController.swift */,
+			);
+			path = AtomicDetailGroup;
+			sourceTree = "<group>";
+		};
+		26DD709926A9F152004647C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				26DD709A26A9F173004647C1 /* AtomicDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		26DD709C26A9F1D9004647C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26DD709D26A9F1E6004647C1 /* AtomicDetailListView.swift */,
+				26DD709F26A9F210004647C1 /* AtomicDetailListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26DD70A326A9F4DC004647C1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				26DD70A626A9F5E0004647C1 /* Modules */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		26DD70A626A9F5E0004647C1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				26DD70A426A9F514004647C1 /* AtomsGroup.swift */,
+				26DD70A726A9F5F0004647C1 /* MoleculesGroup.swift */,
+				26DD70A926A9F66F004647C1 /* OrganismsGroup.swift */,
+				26DD70AB26A9F6BD004647C1 /* TemplatesGroup.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +221,10 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */,
+				26DD708D26A9EF70004647C1 /* AtomicDetailGroup */,
+				26DD70A326A9F4DC004647C1 /* Constants */,
+				26DD707D26A89DD4004647C1 /* RootGroup */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for WTestToolKit";
@@ -153,7 +283,6 @@
 				0B5ECA3B41C736ACEE353EB8 /* Pods-WTestToolKit_Tests.debug.xcconfig */,
 				48008626E3B841BE82103E38 /* Pods-WTestToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,6 +294,7 @@
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WTestToolKit_Example" */;
 			buildPhases = (
 				5BA5E5BA4CAC89E67DA75894 /* [CP] Check Pods Manifest.lock */,
+				26DD707526A89951004647C1 /* swiftlint */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
@@ -187,7 +317,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				570DC130F8DEE337B29C3648 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,7 +344,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1250;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -261,23 +390,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		570DC130F8DEE337B29C3648 /* [CP] Embed Pods Frameworks */ = {
+		26DD707526A89951004647C1 /* swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WTestToolKit_Tests/Pods-WTestToolKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WTestToolKit_Tests/Pods-WTestToolKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "cd ../WTestToolKit\n${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 		57E856D9ADF5C4B63EF5FB0C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -330,10 +459,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WTestToolKit_Example/Pods-WTestToolKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/WTestToolKit/WTestToolKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WTestToolKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +479,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DD70AC26A9F6BD004647C1 /* TemplatesGroup.swift in Sources */,
+				26DD709826A9F125004647C1 /* AtomicDetailWorker.swift in Sources */,
+				26DD70A026A9F210004647C1 /* AtomicDetailListCell.swift in Sources */,
+				26DD708126A89E8F004647C1 /* RootPresenter.swift in Sources */,
+				26DD709B26A9F173004647C1 /* AtomicDetailViewModel.swift in Sources */,
+				26DD708726A8A0B3004647C1 /* RootWorker.swift in Sources */,
+				26DD709E26A9F1E6004647C1 /* AtomicDetailListView.swift in Sources */,
+				26DD709526A9F0F2004647C1 /* AtomicDetailPresenter.swift in Sources */,
+				26DD708526A89F2A004647C1 /* RootViewModel.swift in Sources */,
+				26DD70A826A9F5F0004647C1 /* MoleculesGroup.swift in Sources */,
+				26DD708C26A8A2CF004647C1 /* RootListCell.swift in Sources */,
+				26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				26DD70A226A9F34F004647C1 /* AtomicDetailSectionController.swift in Sources */,
+				26DD70AA26A9F66F004647C1 /* OrganismsGroup.swift in Sources */,
+				26DD70A526A9F514004647C1 /* AtomsGroup.swift in Sources */,
+				26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */,
+				26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */,
+				26DD709326A9F0AF004647C1 /* AtomicDetailInteractor.swift in Sources */,
+				26DD709126A9F001004647C1 /* AtomicDetailViewController.swift in Sources */,
+				26DD708A26A8A19B004647C1 /* RootListView.swift in Sources */,
+				26DD708F26A9EF8D004647C1 /* AtomicDetailBuild.swift in Sources */,
+				26DD707F26A89E4F004647C1 /* RootInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +689,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTestToolKit_Example.app/WTestToolKit_Example";
 			};
 			name = Debug;
@@ -554,7 +707,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTestToolKit_Example.app/WTestToolKit_Example";
 			};
 			name = Release;

@@ -3,22 +3,27 @@
 //  WTestToolKit
 //
 //  Created by Jefferson Batista on 07/21/2021.
-//  Copyright (c) 2021 Jefferson Batista. All rights reserved.
 //
 
-import UIKit
 import WTestToolKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let controller = Router.rootViewController()
-
-        window?.rootViewController = controller
-        return true
-    }
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+            let controller = RouterWTestToolKit.rootViewController()
+            let navigationController = UINavigationController(rootViewController: controller)
+            navigationController.setNavigationBarHidden(false, animated: false)
+            navigationController.navigationBar.isTranslucent = true
+            navigationController.navigationBar.tintColor = .gray
+            if #available(iOS 11.0, *) {
+                UINavigationBar.appearance().largeTitleTextAttributes =
+                    [
+                        NSAttributedString.Key.foregroundColor: UIColor.darkText,
+                        NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 22),
+                    ]
+            }
+            window?.rootViewController = navigationController
+        }
 }
 
