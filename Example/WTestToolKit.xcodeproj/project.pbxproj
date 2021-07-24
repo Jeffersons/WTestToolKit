@@ -14,6 +14,8 @@
 		2641C75926AC183100132A6B /* LocationLabelBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75826AC183100132A6B /* LocationLabelBuild.swift */; };
 		2641C75F26AC1D5400132A6B /* PostalAndLocationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */; };
 		2641C76826AC339200132A6B /* PostalTableViewBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C76726AC339200132A6B /* PostalTableViewBuild.swift */; };
+		2641C77726AC708600132A6B /* DownloadAnimationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */; };
+		2641C77B26AC746D00132A6B /* CheckmarkAnimationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */; };
 		26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */; };
 		26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707926A89CF7004647C1 /* RootBuild.swift */; };
 		26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707B26A89DBC004647C1 /* RootViewController.swift */; };
@@ -66,6 +68,8 @@
 		2641C75826AC183100132A6B /* LocationLabelBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLabelBuild.swift; sourceTree = "<group>"; };
 		2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalAndLocationBuild.swift; sourceTree = "<group>"; };
 		2641C76726AC339200132A6B /* PostalTableViewBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalTableViewBuild.swift; sourceTree = "<group>"; };
+		2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAnimationBuild.swift; sourceTree = "<group>"; };
+		2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkAnimationBuild.swift; sourceTree = "<group>"; };
 		26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWTestToolKit.swift; sourceTree = "<group>"; };
 		26DD707926A89CF7004647C1 /* RootBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuild.swift; sourceTree = "<group>"; };
 		26DD707B26A89DBC004647C1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 			children = (
 				2641C73B26ABF42100132A6B /* TitlesBuild.swift */,
 				2641C75026AC0CD400132A6B /* IconsBuild.swift */,
+				2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */,
+				2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */,
 			);
 			path = AtomsBuild;
 			sourceTree = "<group>";
@@ -522,11 +528,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-WTestToolKit_Example/Pods-WTestToolKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/WTestToolKit/WTestToolKit.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WTestToolKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,9 +561,11 @@
 				26DD708526A89F2A004647C1 /* RootViewModel.swift in Sources */,
 				26DD70A826A9F5F0004647C1 /* MoleculesGroup.swift in Sources */,
 				26DD708C26A8A2CF004647C1 /* RootListCell.swift in Sources */,
+				2641C77726AC708600132A6B /* DownloadAnimationBuild.swift in Sources */,
 				26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				2641C76826AC339200132A6B /* PostalTableViewBuild.swift in Sources */,
+				2641C77B26AC746D00132A6B /* CheckmarkAnimationBuild.swift in Sources */,
 				26DD70A226A9F34F004647C1 /* AtomicDetailSectionController.swift in Sources */,
 				2641C73C26ABF42100132A6B /* TitlesBuild.swift in Sources */,
 				26DD70AA26A9F66F004647C1 /* OrganismsGroup.swift in Sources */,

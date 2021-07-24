@@ -17,7 +17,11 @@ protocol AtomicDetailWorkerProtocol {
 
 class AtomicDetailWorker: AtomicDetailWorkerProtocol {
     func fetchAtoms() -> [AtomicDetailViewModel] {
-        return sortedAtomicsModel(details: AtomsGroup.atoms)
+        var atoms = AtomsGroup.atoms
+        //Restart the animations
+        atoms.append(AtomicDetailViewModel(title: "Download Animation", view: DownloadAnimationBuild().build()))
+        atoms.append(AtomicDetailViewModel(title: "Checkmark Animation", view: CheckmarkAnimationBuild().build()))
+        return sortedAtomicsModel(details: atoms)
     }
 
     func fetchMolecules() -> [AtomicDetailViewModel] {

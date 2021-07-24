@@ -96,7 +96,6 @@ extension AtomicDetailViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         guard let cell = contentView.tableView.dequeueReusableCell(withIdentifier: cellReuseId, for: indexPath)
             as? AtomicDetailListCell else { return AtomicDetailListCell() }
         
@@ -112,12 +111,7 @@ extension AtomicDetailViewController: UITableViewDataSource {
 extension AtomicDetailViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let value = viewModel?[indexPath.row].detail else { return }
-        displaySegueTo(viewController:
-            AtomicDetailSectionController(
-                interactor: interactor,
-                viewModel: value
-            )
-        )
+        interactor.segueTo(atomicDetail: value)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -133,6 +127,10 @@ extension AtomicDetailViewController: AtomicDetailDisplayLogic {
     }
     
     func displaySegueTo(viewController: UIViewController) {
+        if groupType == .atom {
+            //Restart animations on atoms
+            interactor.fetchAtoms()
+        }
         navigationController?.pushViewController(viewController, animated: true)
     }
 }

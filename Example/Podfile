@@ -6,6 +6,7 @@ platform :ios, '11.0'
 def helpful
   pod 'SnapKit', '~> 5.0', :inhibit_warnings => true
   pod 'SwiftLint'
+  pod 'lottie-ios'
 end
 
 target 'WTestToolKit_Example' do

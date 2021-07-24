@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AtomicDetailViewModel {
+final class AtomicDetailViewModel {
     let title: String
     let view: UIView
 
