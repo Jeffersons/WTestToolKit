@@ -6,7 +6,7 @@
 //
 
 import SnapKit
-import UIKit
+import WTestToolKit
 
 extension RootListView {
     struct Appearance {
@@ -25,7 +25,7 @@ class RootListView: UIView {
     
     private lazy var versionLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .white
+        label.textColor = Colors.clWhite.color
         label.numberOfLines = 0
         label.textAlignment = .center
         label.text = "WTestToolKit: \n V0.1"
@@ -36,7 +36,7 @@ class RootListView: UIView {
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.backgroundColor = .white
+        tableView.backgroundColor = Colors.clWhite.color
         tableView.separatorStyle = .none
         return tableView
     }()

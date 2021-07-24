@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2641C73426ABE8FE00132A6B /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C73326ABE8FE00132A6B /* ContainerView.swift */; };
+		2641C73C26ABF42100132A6B /* TitlesBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C73B26ABF42100132A6B /* TitlesBuild.swift */; };
+		2641C75126AC0CD400132A6B /* IconsBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75026AC0CD400132A6B /* IconsBuild.swift */; };
+		2641C75726AC156700132A6B /* PostalCodeLabelBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75626AC156700132A6B /* PostalCodeLabelBuild.swift */; };
+		2641C75926AC183100132A6B /* LocationLabelBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75826AC183100132A6B /* LocationLabelBuild.swift */; };
+		2641C75F26AC1D5400132A6B /* PostalAndLocationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */; };
+		2641C76826AC339200132A6B /* PostalTableViewBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C76726AC339200132A6B /* PostalTableViewBuild.swift */; };
 		26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */; };
 		26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707926A89CF7004647C1 /* RootBuild.swift */; };
 		26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707B26A89DBC004647C1 /* RootViewController.swift */; };
@@ -52,6 +59,13 @@
 		008B24F2012BEBE22967D174 /* Pods_WTestToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTestToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		093891F9019DA183F5990C84 /* Pods-WTestToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Example/Pods-WTestToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B5ECA3B41C736ACEE353EB8 /* Pods-WTestToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTestToolKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WTestToolKit_Tests/Pods-WTestToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2641C73326ABE8FE00132A6B /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		2641C73B26ABF42100132A6B /* TitlesBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesBuild.swift; sourceTree = "<group>"; };
+		2641C75026AC0CD400132A6B /* IconsBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBuild.swift; sourceTree = "<group>"; };
+		2641C75626AC156700132A6B /* PostalCodeLabelBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCodeLabelBuild.swift; sourceTree = "<group>"; };
+		2641C75826AC183100132A6B /* LocationLabelBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLabelBuild.swift; sourceTree = "<group>"; };
+		2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalAndLocationBuild.swift; sourceTree = "<group>"; };
+		2641C76726AC339200132A6B /* PostalTableViewBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalTableViewBuild.swift; sourceTree = "<group>"; };
 		26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWTestToolKit.swift; sourceTree = "<group>"; };
 		26DD707926A89CF7004647C1 /* RootBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuild.swift; sourceTree = "<group>"; };
 		26DD707B26A89DBC004647C1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +125,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2641C73226ABE8E200132A6B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2641C73326ABE8FE00132A6B /* ContainerView.swift */,
+				2641C73726ABE9EB00132A6B /* AtomsBuild */,
+				2641C75526AC154B00132A6B /* MoleculesBuild */,
+				2641C75D26AC1D0D00132A6B /* OrganismsBuild */,
+				2641C76626AC336100132A6B /* TemplatesBuild */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2641C73726ABE9EB00132A6B /* AtomsBuild */ = {
+			isa = PBXGroup;
+			children = (
+				2641C73B26ABF42100132A6B /* TitlesBuild.swift */,
+				2641C75026AC0CD400132A6B /* IconsBuild.swift */,
+			);
+			path = AtomsBuild;
+			sourceTree = "<group>";
+		};
+		2641C75526AC154B00132A6B /* MoleculesBuild */ = {
+			isa = PBXGroup;
+			children = (
+				2641C75626AC156700132A6B /* PostalCodeLabelBuild.swift */,
+				2641C75826AC183100132A6B /* LocationLabelBuild.swift */,
+			);
+			path = MoleculesBuild;
+			sourceTree = "<group>";
+		};
+		2641C75D26AC1D0D00132A6B /* OrganismsBuild */ = {
+			isa = PBXGroup;
+			children = (
+				2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */,
+			);
+			path = OrganismsBuild;
+			sourceTree = "<group>";
+		};
+		2641C76626AC336100132A6B /* TemplatesBuild */ = {
+			isa = PBXGroup;
+			children = (
+				2641C76726AC339200132A6B /* PostalTableViewBuild.swift */,
+			);
+			path = TemplatesBuild;
+			sourceTree = "<group>";
+		};
 		26DD707D26A89DD4004647C1 /* RootGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,9 +282,10 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */,
-				26DD708D26A9EF70004647C1 /* AtomicDetailGroup */,
 				26DD70A326A9F4DC004647C1 /* Constants */,
+				26DD708D26A9EF70004647C1 /* AtomicDetailGroup */,
 				26DD707D26A89DD4004647C1 /* RootGroup */,
+				2641C73226ABE8E200132A6B /* Modules */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for WTestToolKit";
@@ -483,6 +544,8 @@
 				26DD709826A9F125004647C1 /* AtomicDetailWorker.swift in Sources */,
 				26DD70A026A9F210004647C1 /* AtomicDetailListCell.swift in Sources */,
 				26DD708126A89E8F004647C1 /* RootPresenter.swift in Sources */,
+				2641C75926AC183100132A6B /* LocationLabelBuild.swift in Sources */,
+				2641C75726AC156700132A6B /* PostalCodeLabelBuild.swift in Sources */,
 				26DD709B26A9F173004647C1 /* AtomicDetailViewModel.swift in Sources */,
 				26DD708726A8A0B3004647C1 /* RootWorker.swift in Sources */,
 				26DD709E26A9F1E6004647C1 /* AtomicDetailListView.swift in Sources */,
@@ -492,13 +555,18 @@
 				26DD708C26A8A2CF004647C1 /* RootListCell.swift in Sources */,
 				26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2641C76826AC339200132A6B /* PostalTableViewBuild.swift in Sources */,
 				26DD70A226A9F34F004647C1 /* AtomicDetailSectionController.swift in Sources */,
+				2641C73C26ABF42100132A6B /* TitlesBuild.swift in Sources */,
 				26DD70AA26A9F66F004647C1 /* OrganismsGroup.swift in Sources */,
 				26DD70A526A9F514004647C1 /* AtomsGroup.swift in Sources */,
 				26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */,
+				2641C75F26AC1D5400132A6B /* PostalAndLocationBuild.swift in Sources */,
 				26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */,
 				26DD709326A9F0AF004647C1 /* AtomicDetailInteractor.swift in Sources */,
 				26DD709126A9F001004647C1 /* AtomicDetailViewController.swift in Sources */,
+				2641C73426ABE8FE00132A6B /* ContainerView.swift in Sources */,
+				2641C75126AC0CD400132A6B /* IconsBuild.swift in Sources */,
 				26DD708A26A8A19B004647C1 /* RootListView.swift in Sources */,
 				26DD708F26A9EF8D004647C1 /* AtomicDetailBuild.swift in Sources */,
 				26DD707F26A89E4F004647C1 /* RootInteractor.swift in Sources */,
@@ -588,7 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -634,7 +702,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

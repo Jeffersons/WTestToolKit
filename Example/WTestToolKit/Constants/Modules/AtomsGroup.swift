@@ -10,8 +10,7 @@ import UIKit
 
 enum AtomsGroup {
     static let atoms = [
-        AtomicDetailViewModel(title: "Icons", view: UIView()),
-        AtomicDetailViewModel(title: "Colors", view: UIView()),
-        AtomicDetailViewModel(title: "Fonts", view: UIView())
+        AtomicDetailViewModel(title: "Titles", view: TitlesBuild().build()),
+        AtomicDetailViewModel(title: "Icons", view: IconsBuild().build())
     ]
 }

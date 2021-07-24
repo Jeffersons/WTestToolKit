@@ -28,21 +28,23 @@ class RootListCell: UITableViewCell {
     lazy var iconImage: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
+        image.image = image.image?.withRenderingMode(.alwaysTemplate)
+        image.tintColor = Colors.clBlack.color
         return image
     }()
 
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .darkText
+        label.textColor = Colors.clBlack.color
         label.textAlignment = .left
         return label
     }()
     
     lazy var separator: UIView = {
-           let view = UIView()
-           view.backgroundColor = .black
-           return view
-       }()
+       let view = UIView()
+       view.backgroundColor = Colors.clBlack.color
+       return view
+    }()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

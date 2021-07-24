@@ -14,7 +14,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Jefferson Batista/WTestToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = [
     'WTestToolKit/Classes/**/*',
@@ -22,8 +22,7 @@ TODO: Add long description of the pod here.
     'WTestToolKit/Resources/Extensions/**/*.{h,m,swift}'
   ]
 
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'WTestToolKit/Tests/**/*.swift'
-    test_spec.resource = 'WTestToolKit/Tests/Assets/**/*'
-  end
+  s.dependency 'SnapKit', '~> 5.0'
+  s.dependency 'SwiftLint'
+  s.resources = 'WTestToolKit/Resources/**/*.{xcassets,xib,lproj,json}'
 end

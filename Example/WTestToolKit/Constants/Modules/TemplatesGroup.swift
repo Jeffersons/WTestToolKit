@@ -10,6 +10,6 @@ import UIKit
 
 enum TemplatesGroup {
     static let templates = [
-        AtomicDetailViewModel(title: "PostalCode View", view: UIView()),
+        AtomicDetailViewModel(title: "PostalCode", view: PostalTableViewBuild().build()),
     ]
 }

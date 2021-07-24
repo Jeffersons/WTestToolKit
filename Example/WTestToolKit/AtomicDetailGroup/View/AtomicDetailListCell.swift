@@ -21,21 +21,21 @@ class AtomicDetailListCell: UITableViewCell {
 
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .darkText
+        label.textColor = Colors.clBlack.color
         label.textAlignment = .left
         return label
     }()
 
     private lazy var separator: UIView = {
         let view = UIView()
-        view.backgroundColor = .black
+        view.backgroundColor = Colors.clBlack.color
         return view
     }()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
-        backgroundColor = UIColor.white
+        backgroundColor = Colors.clWhite.color
         commonInit()
         makeConstraints()
     }

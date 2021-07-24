@@ -10,6 +10,7 @@ import UIKit
 
 enum MoleculesGroup {
     static let molecules = [
-        AtomicDetailViewModel(title: "PostalCode Cell", view: UIView()),
+        AtomicDetailViewModel(title: "PostalCodeLabel", view: PostalCodeLabelBuild().build()),
+        AtomicDetailViewModel(title: "LocationLabel", view: LocationLabelBuild().build())
     ]
 }
