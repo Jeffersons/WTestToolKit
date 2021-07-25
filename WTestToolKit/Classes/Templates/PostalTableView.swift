@@ -17,7 +17,7 @@ public class PostalTableView: UIView {
     fileprivate let appearance = Appearance()
     private var dataSource: [PostalAndLocationView.ViewModel]
 
-    private(set) lazy var tableView: UITableView = {
+    public lazy var tableView: UITableView = {
         var tableView = UITableView(frame: .zero, style: .grouped)
         tableView.showsVerticalScrollIndicator = false
         tableView.backgroundColor = Colors.clWhite.color

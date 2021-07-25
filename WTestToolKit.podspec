@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WTestToolKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of WTestToolKit.'
 
   s.description      = <<-DESC
