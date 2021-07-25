@@ -16,6 +16,9 @@
 		2641C76826AC339200132A6B /* PostalTableViewBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C76726AC339200132A6B /* PostalTableViewBuild.swift */; };
 		2641C77726AC708600132A6B /* DownloadAnimationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */; };
 		2641C77B26AC746D00132A6B /* CheckmarkAnimationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */; };
+		2641C7A926ADACEE00132A6B /* GradientHorizontalProgressBarBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641C7A826ADACEE00132A6B /* GradientHorizontalProgressBarBuild.swift */; };
+		2697F8A426ADB91D00D0C232 /* WaitAnimationBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697F8A326ADB91D00D0C232 /* WaitAnimationBuild.swift */; };
+		2697F8A826ADD44E00D0C232 /* DownloadBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697F8A726ADD44E00D0C232 /* DownloadBuild.swift */; };
 		26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */; };
 		26DD707A26A89CF7004647C1 /* RootBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707926A89CF7004647C1 /* RootBuild.swift */; };
 		26DD707C26A89DBC004647C1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD707B26A89DBC004647C1 /* RootViewController.swift */; };
@@ -70,6 +73,15 @@
 		2641C76726AC339200132A6B /* PostalTableViewBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalTableViewBuild.swift; sourceTree = "<group>"; };
 		2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAnimationBuild.swift; sourceTree = "<group>"; };
 		2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkAnimationBuild.swift; sourceTree = "<group>"; };
+		2641C7A826ADACEE00132A6B /* GradientHorizontalProgressBarBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHorizontalProgressBarBuild.swift; sourceTree = "<group>"; };
+		2697F8A326ADB91D00D0C232 /* WaitAnimationBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitAnimationBuild.swift; sourceTree = "<group>"; };
+		2697F8A726ADD44E00D0C232 /* DownloadBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadBuild.swift; sourceTree = "<group>"; };
+		2697F8AC26ADE86C00D0C232 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		2697F8AD26ADE86C00D0C232 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2697F8AE26ADE87500D0C232 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2697F8AF26ADE87500D0C232 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2697F8B026ADE88600D0C232 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		2697F8B126ADE88600D0C232 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		26DD707626A89C67004647C1 /* RouterWTestToolKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterWTestToolKit.swift; sourceTree = "<group>"; };
 		26DD707926A89CF7004647C1 /* RootBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuild.swift; sourceTree = "<group>"; };
 		26DD707B26A89DBC004647C1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +160,7 @@
 				2641C75026AC0CD400132A6B /* IconsBuild.swift */,
 				2641C77626AC708600132A6B /* DownloadAnimationBuild.swift */,
 				2641C77A26AC746D00132A6B /* CheckmarkAnimationBuild.swift */,
+				2641C7A826ADACEE00132A6B /* GradientHorizontalProgressBarBuild.swift */,
 			);
 			path = AtomsBuild;
 			sourceTree = "<group>";
@@ -157,6 +170,7 @@
 			children = (
 				2641C75626AC156700132A6B /* PostalCodeLabelBuild.swift */,
 				2641C75826AC183100132A6B /* LocationLabelBuild.swift */,
+				2697F8A326ADB91D00D0C232 /* WaitAnimationBuild.swift */,
 			);
 			path = MoleculesBuild;
 			sourceTree = "<group>";
@@ -165,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				2641C75E26AC1D5400132A6B /* PostalAndLocationBuild.swift */,
+				2697F8A726ADD44E00D0C232 /* DownloadBuild.swift */,
 			);
 			path = OrganismsBuild;
 			sourceTree = "<group>";
@@ -424,6 +439,9 @@
 				English,
 				en,
 				Base,
+				"pt-BR",
+				"zh-Hans",
+				es,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -574,12 +592,15 @@
 				2641C75F26AC1D5400132A6B /* PostalAndLocationBuild.swift in Sources */,
 				26DD707726A89C67004647C1 /* RouterWTestToolKit.swift in Sources */,
 				26DD709326A9F0AF004647C1 /* AtomicDetailInteractor.swift in Sources */,
+				2641C7A926ADACEE00132A6B /* GradientHorizontalProgressBarBuild.swift in Sources */,
 				26DD709126A9F001004647C1 /* AtomicDetailViewController.swift in Sources */,
 				2641C73426ABE8FE00132A6B /* ContainerView.swift in Sources */,
 				2641C75126AC0CD400132A6B /* IconsBuild.swift in Sources */,
 				26DD708A26A8A19B004647C1 /* RootListView.swift in Sources */,
 				26DD708F26A9EF8D004647C1 /* AtomicDetailBuild.swift in Sources */,
+				2697F8A426ADB91D00D0C232 /* WaitAnimationBuild.swift in Sources */,
 				26DD707F26A89E4F004647C1 /* RootInteractor.swift in Sources */,
+				2697F8A826ADD44E00D0C232 /* DownloadBuild.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +627,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDA1AFB9204008FA782 /* Base */,
+				2697F8AC26ADE86C00D0C232 /* pt-BR */,
+				2697F8AE26ADE87500D0C232 /* zh-Hans */,
+				2697F8B026ADE88600D0C232 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -614,6 +638,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDF1AFB9204008FA782 /* Base */,
+				2697F8AD26ADE86C00D0C232 /* pt-BR */,
+				2697F8AF26ADE87500D0C232 /* zh-Hans */,
+				2697F8B126ADE88600D0C232 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

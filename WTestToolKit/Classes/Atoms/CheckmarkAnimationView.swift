@@ -24,7 +24,7 @@ public class CheckmarkAnimationView: UIView {
     private lazy var animation: AnimationView = {
         let animation = Animation.named("checkmark", bundle: Bundle(for: DownloadAnimationView.self))
         animationView.animation = animation
-        animationView.loopMode = .loop
+        animationView.loopMode = .playOnce
         return animationView
     }()
 

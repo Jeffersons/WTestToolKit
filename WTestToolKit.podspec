@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WTestToolKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of WTestToolKit.'
 
   s.description      = <<-DESC
@@ -19,7 +19,10 @@ TODO: Add long description of the pod here.
     'WTestToolKit/Resources/Source/**/*.{h,m,swift}',
     'WTestToolKit/Resources/Extensions/**/*.{h,m,swift}'
   ]
-  s.resources = ['WTestToolKit/Resources/Assets/**/*.{xcassets,json}']
+  s.resource_bundles = {
+    'WTestToolKit' => ['WTestToolKit/**/*{xcassets,xib,lproj,json}']
+  }
+  s.resources = ['WTestToolKit/Resources/**/*.{xcassets,xib,lproj,json}']
 
   s.dependency 'SnapKit', '~> 5.0'
   s.dependency 'SwiftLint'

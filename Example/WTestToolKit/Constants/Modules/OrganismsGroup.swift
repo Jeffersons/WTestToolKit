@@ -10,6 +10,7 @@ import UIKit
 
 enum OrganismsGroup {
     static let organisms = [
-        AtomicDetailViewModel(title: "PostalAndLocation Cell", view: PostalAndLocationBuild().build())
+        AtomicDetailViewModel(title: "PostalAndLocation Cell", view: PostalAndLocationBuild().build()),
+        AtomicDetailViewModel(title: "DownloadView", view: DownloadBuild().build())
     ]
 }

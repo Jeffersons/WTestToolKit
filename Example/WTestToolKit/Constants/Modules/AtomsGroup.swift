@@ -11,6 +11,7 @@ import UIKit
 enum AtomsGroup {
     static let atoms = [
         AtomicDetailViewModel(title: "Titles", view: TitlesBuild().build()),
-        AtomicDetailViewModel(title: "Icons", view: IconsBuild().build())
+        AtomicDetailViewModel(title: "Icons", view: IconsBuild().build()),
+        AtomicDetailViewModel(title: "GradientHorizontalProgressBar", view: GradientHorizontalProgressBarBuild().build())
     ]
 }
